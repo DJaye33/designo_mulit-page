@@ -1,3 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+:root {
+  --color-primary-peach: #e7816b;
+  --color-primary-black: #1d1c1e;
+  --color-primary-white: #ffffff;
+  --color-secondary-light-peach: #ffad9b;
+  --color-secondary-dark-grey: #333136;
+  --color-secondary-light-grey: #f1f3f5; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: "Jost", sans-serif; }
+
+.inactive {
+  display: none; }
+
+.navbar {
+  padding: 3.5rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  height: 2.7rem; }
+
+.menu {
+  cursor: pointer; }
+
+.menu:close {
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
