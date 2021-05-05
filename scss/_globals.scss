@@ -32,6 +32,28 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  display: inline-block;
+  border: none;
+  outline: transparent;
+  border-radius: 0.8rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 1.75rem 2.45rem;
+  color: var(--color-primary-black);
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: var(--color-primary-white);
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--color-primary-white);
+    background-color: var(--color-secondary-light-peach);
+  }
+}
+
 .inactive {
   display: none;
 }

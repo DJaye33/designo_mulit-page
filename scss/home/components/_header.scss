@@ -1,0 +1,33 @@
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 31.2rem;
+  padding: 8rem 2rem 0;
+
+  .content-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 2.4rem;
+  }
+
+  .content-paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 2.4rem;
+  }
+}
+
+.header__graphic {
+  background-image: url("/assets/home/desktop/image-hero-phone.png");
+  background-position: center 18%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 45rem;
+  width: 100%;
+}
