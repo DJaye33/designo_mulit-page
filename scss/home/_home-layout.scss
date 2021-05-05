@@ -14,3 +14,11 @@
     padding: 6.4rem 16.5rem;
   }
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary-peach);
+}

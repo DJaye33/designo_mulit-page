@@ -1,6 +1,7 @@
 const openMenu = document.querySelector(".menu");
 const closeMenu = document.querySelector(".close");
 const navigation = document.querySelector(".navbar__navigation");
+const navLinks = document.querySelector(".navigation-links");
 
 function closeMobileMenu() {
   navigation.classList.remove("navbar__navigation--open");

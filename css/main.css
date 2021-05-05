@@ -42,6 +42,13 @@ a {
     .navbar {
       padding: 6.4rem 16.5rem; } }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary-peach); }
+
 .logo {
   height: 2.7rem; }
 
@@ -87,7 +94,8 @@ a {
     color: var(--color-primary-white);
     text-transform: uppercase;
     transition: 0.2s;
-    white-space: nowrap; }
+    white-space: nowrap;
+    overflow: hidden; }
     @media screen and (min-width: 768px) {
       .navbar__navigation .navigation-links {
         font-size: 1.4rem;
