@@ -34,6 +34,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  @media screen and (min-width: 768px) {
+    .navbar {
+      position: initial;
+      padding: 6.4rem 3.9rem; } }
+  @media screen and (min-width: 1440px) {
+    .navbar {
+      padding: 6.4rem 16.5rem; } }
 
 .logo {
   height: 2.7rem; }
@@ -51,6 +58,17 @@ a {
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.5s; }
+  @media screen and (min-width: 768px) {
+    .navbar__navigation {
+      position: initial;
+      width: initial;
+      padding: initial;
+      min-height: initial;
+      z-index: initial;
+      flex-direction: row;
+      transition: initial;
+      background-color: initial;
+      min-width: 37rem; } }
   .navbar__navigation--open {
     left: 0;
     width: 100%; }
@@ -68,15 +86,24 @@ a {
     letter-spacing: 0.2rem;
     color: var(--color-primary-white);
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: 0.2s;
     white-space: nowrap; }
+    @media screen and (min-width: 768px) {
+      .navbar__navigation .navigation-links {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        letter-spacing: 0.2rem;
+        white-space: initial;
+        color: var(--color-primary-black); } }
     .navbar__navigation .navigation-links:hover {
       color: var(--color-primary-peach); }
 
-.menu {
+@media screen and (min-width: 768px) {
+  .navbar__menu {
+    display: none; } }
+.navbar__menu .menu {
   cursor: pointer; }
-
-.menu:close {
+.navbar__menu .close {
   cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

@@ -16,6 +16,18 @@
   justify-content: space-between;
   transition: all 0.5s;
 
+  @media screen and (min-width: 768px) {
+    position: initial;
+    width: initial;
+    padding: initial;
+    min-height: initial;
+    z-index: initial;
+    flex-direction: row;
+    transition: initial;
+    background-color: initial;
+    min-width: 37rem;
+  }
+
   &--open {
     left: 0;
     width: 100%;
@@ -37,8 +49,16 @@
     letter-spacing: 0.2rem;
     color: var(--color-primary-white);
     text-transform: uppercase;
-    transition: 0.3s;
+    transition: 0.2s;
     white-space: nowrap;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.4rem;
+      line-height: 1.4rem;
+      letter-spacing: 0.2rem;
+      white-space: initial;
+      color: var(--color-primary-black);
+    }
 
     &:hover {
       color: var(--color-primary-peach);
@@ -46,10 +66,16 @@
   }
 }
 
-.menu {
-  cursor: pointer;
-}
+.navbar__menu {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 
-.menu:close {
-  cursor: pointer;
+  .menu {
+    cursor: pointer;
+  }
+
+  .close {
+    cursor: pointer;
+  }
 }
