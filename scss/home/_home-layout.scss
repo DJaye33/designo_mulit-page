@@ -11,7 +11,10 @@
   }
 
   @media screen and (min-width: 1440px) {
-    padding: 6.4rem 16.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6.4rem 0;
+    max-width: 1110px;
   }
 }
 
@@ -34,13 +37,19 @@
     background-size: 90%;
   }
 
-  @media screen and (min-width: 1440px) {
-    margin-left: 16.5rem;
-    margin-right: 16.5rem;
+  @media screen and (min-width: 1024px) {
+    padding: 9.5rem 5rem 0;
     flex-direction: row;
-    align-items: flex-start;
+    background-size: 80%;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+    margin-right: auto;
     padding: 14.5rem 9.6rem 0rem;
+    align-items: flex-start;
     background-position: top right;
     background-size: 57%;
+    max-width: 1110px;
   }
 }

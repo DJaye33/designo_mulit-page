@@ -6,10 +6,13 @@
   padding: 8rem 2rem 0;
   margin-bottom: 8rem;
 
-  @media screen and (min-width: 1440px) {
-    align-items: flex-start;
+  @media screen and (min-width: 1024px) {
     padding: initial;
     margin-bottom: initial;
+  }
+
+  @media screen and (min-width: 1440px) {
+    align-items: flex-start;
   }
 
   .content-heading {
@@ -26,7 +29,7 @@
       width: 57.3rem;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1440px) {
       text-align: left;
       width: 54rem;
     }
@@ -47,6 +50,7 @@
 
     @media screen and (min-width: 1440px) {
       text-align: left;
+      margin-bottom: 4rem;
     }
   }
 }
@@ -64,8 +68,12 @@
     width: 40%;
   }
 
+  @media screen and (min-width: 1024px) {
+    min-height: 42rem;
+    width: 30%;
+  }
+
   @media screen and (min-width: 1440px) {
-      width: 26%;
-        min-height: 43rem;
-}
+    min-height: 48.5rem;
+  }
 }

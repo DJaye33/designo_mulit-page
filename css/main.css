@@ -59,7 +59,10 @@ a {
       padding: 6.4rem 3.9rem; } }
   @media screen and (min-width: 1440px) {
     .navbar {
-      padding: 6.4rem 16.5rem; } }
+      margin-left: auto;
+      margin-right: auto;
+      padding: 6.4rem 0;
+      max-width: 1110px; } }
 
 .header {
   display: flex;
@@ -78,15 +81,20 @@ a {
       border-radius: 1.5rem;
       background-position: center right -125%;
       background-size: 90%; } }
+  @media screen and (min-width: 1024px) {
+    .header {
+      padding: 9.5rem 5rem 0;
+      flex-direction: row;
+      background-size: 80%; } }
   @media screen and (min-width: 1440px) {
     .header {
-      margin-left: 16.5rem;
-      margin-right: 16.5rem;
-      flex-direction: row;
-      align-items: flex-start;
+      margin-left: auto;
+      margin-right: auto;
       padding: 14.5rem 9.6rem 0rem;
+      align-items: flex-start;
       background-position: top right;
-      background-size: 57%; } }
+      background-size: 57%;
+      max-width: 1110px; } }
 
 .logo {
   height: 2.7rem; }
@@ -163,11 +171,13 @@ a {
   min-height: 31.2rem;
   padding: 8rem 2rem 0;
   margin-bottom: 8rem; }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1024px) {
     .header__content {
-      align-items: flex-start;
       padding: initial;
       margin-bottom: initial; } }
+  @media screen and (min-width: 1440px) {
+    .header__content {
+      align-items: flex-start; } }
   .header__content .content-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -180,7 +190,7 @@ a {
         font-size: 4.8rem;
         line-height: 4.8rem;
         width: 57.3rem; } }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1440px) {
       .header__content .content-heading {
         text-align: left;
         width: 54rem; } }
@@ -197,7 +207,8 @@ a {
         width: 44.5rem; } }
     @media screen and (min-width: 1440px) {
       .header__content .content-paragraph {
-        text-align: left; } }
+        text-align: left;
+        margin-bottom: 4rem; } }
 
 .header__graphic {
   background-image: url("/assets/home/desktop/hero-phone-image.png");
@@ -210,9 +221,12 @@ a {
   @media screen and (min-width: 768px) {
     .header__graphic {
       width: 40%; } }
+  @media screen and (min-width: 1024px) {
+    .header__graphic {
+      min-height: 42rem;
+      width: 30%; } }
   @media screen and (min-width: 1440px) {
     .header__graphic {
-      width: 26%;
-      min-height: 43rem; } }
+      min-height: 48.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
