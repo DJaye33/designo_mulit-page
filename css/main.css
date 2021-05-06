@@ -67,10 +67,26 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-primary-peach);
-  background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg");
+  background-image: url("/assets/home/desktop/bg-pattern-hero-home.svg");
   background-repeat: no-repeat;
   background-position: left 43%;
   background-size: 170%; }
+  @media screen and (min-width: 768px) {
+    .header {
+      margin-left: 3.95rem;
+      margin-right: 3.95rem;
+      border-radius: 1.5rem;
+      background-position: center right -125%;
+      background-size: 90%; } }
+  @media screen and (min-width: 1440px) {
+    .header {
+      margin-left: 16.5rem;
+      margin-right: 16.5rem;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 14.5rem 9.6rem 0rem;
+      background-position: top right;
+      background-size: 57%; } }
 
 .logo {
   height: 2.7rem; }
@@ -110,6 +126,9 @@ a {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); }
+    @media screen and (min-width: 768px) {
+      .navbar__navigation::after {
+        display: none; } }
   .navbar__navigation .navigation-links {
     font-size: 2.4rem;
     line-height: 2.5rem;
@@ -142,7 +161,13 @@ a {
   flex-direction: column;
   align-items: center;
   min-height: 31.2rem;
-  padding: 8rem 2rem 0; }
+  padding: 8rem 2rem 0;
+  margin-bottom: 8rem; }
+  @media screen and (min-width: 1440px) {
+    .header__content {
+      align-items: flex-start;
+      padding: initial;
+      margin-bottom: initial; } }
   .header__content .content-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -150,19 +175,44 @@ a {
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem; }
+    @media screen and (min-width: 768px) {
+      .header__content .content-heading {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+        width: 57.3rem; } }
+    @media screen and (min-width: 768px) {
+      .header__content .content-heading {
+        text-align: left;
+        width: 54rem; } }
   .header__content .content-paragraph {
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem; }
+    @media screen and (min-width: 768px) {
+      .header__content .content-paragraph {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        width: 44.5rem; } }
+    @media screen and (min-width: 1440px) {
+      .header__content .content-paragraph {
+        text-align: left; } }
 
 .header__graphic {
-  background-image: url("/assets/home/desktop/image-hero-phone.png");
-  background-position: center 18%;
+  background-image: url("/assets/home/desktop/hero-phone-image.png");
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: auto;
-  min-height: 45rem;
-  width: 100%; }
+  background-size: cover;
+  min-height: 37rem;
+  width: 80%;
+  filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569)); }
+  @media screen and (min-width: 768px) {
+    .header__graphic {
+      width: 40%; } }
+  @media screen and (min-width: 1440px) {
+    .header__graphic {
+      width: 26%;
+      min-height: 43rem; } }
 
 /*# sourceMappingURL=main.css.map */

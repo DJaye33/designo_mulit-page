@@ -4,6 +4,13 @@
   align-items: center;
   min-height: 31.2rem;
   padding: 8rem 2rem 0;
+  margin-bottom: 8rem;
+
+  @media screen and (min-width: 1440px) {
+    align-items: flex-start;
+    padding: initial;
+    margin-bottom: initial;
+  }
 
   .content-heading {
     font-weight: 500;
@@ -12,6 +19,17 @@
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 4.8rem;
+      line-height: 4.8rem;
+      width: 57.3rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+      width: 54rem;
+    }
   }
 
   .content-paragraph {
@@ -20,14 +38,34 @@
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      width: 44.5rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+      text-align: left;
+    }
   }
 }
 
 .header__graphic {
-  background-image: url("/assets/home/desktop/image-hero-phone.png");
-  background-position: center 18%;
+  background-image: url("/assets/home/desktop/hero-phone-image.png");
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: auto;
-  min-height: 45rem;
-  width: 100%;
+  background-size: cover;
+  min-height: 37rem;
+  width: 80%;
+  filter: drop-shadow(20px -40px 80px rgba(93, 2, 2, 0.497569));
+
+  @media screen and (min-width: 768px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 1440px) {
+      width: 26%;
+        min-height: 43rem;
+}
 }
