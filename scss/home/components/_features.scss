@@ -15,6 +15,15 @@
     margin-bottom: 0;
   }
 
+  @media screen and (min-width: 1024px) {
+    margin-bottom: initial;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: initial;
+    width: 54.1rem;
+  }
+
   &-title {
     font-weight: 500;
     font-size: 2.8rem;
@@ -62,6 +71,16 @@
       url("/assets/home/tablet/image-web-design.jpg");
   }
 
+  @media screen and (min-width: 1024px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/assets/home/desktop/image-web-design-large.jpg");
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
   &:hover {
     background-image: linear-gradient(
         rgba(231, 129, 107, 0.7),
@@ -76,6 +95,14 @@
         ),
         url("/assets/home/tablet/image-web-design.jpg");
     }
+
+    @media screen and (min-width: 1024px) {
+      background-image: linear-gradient(
+          rgba(231, 129, 107, 0.7),
+          rgba(231, 129, 107, 0.7)
+        ),
+        url("/assets/home/desktop/image-web-design-large.jpg");
+    }
   }
 }
 
@@ -86,6 +113,11 @@
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("/assets/home/tablet/image-app-design.jpg");
+  }
+
+  @media screen and (min-width: 1024px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/assets/home/desktop/image-app-design.jpg");
   }
 
   &:hover {
@@ -102,6 +134,14 @@
         ),
         url("/assets/home/tablet/image-app-design.jpg");
     }
+
+    @media screen and (min-width: 1024px) {
+      background-image: linear-gradient(
+          rgba(231, 129, 107, 0.7),
+          rgba(231, 129, 107, 0.7)
+        ),
+        url("/assets/home/desktop/image-app-design.jpg");
+    }
   }
 }
 
@@ -112,6 +152,11 @@
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("/assets/home/tablet/image-graphic-design.jpg");
+  }
+
+  @media screen and (min-width: 1024px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/assets/home/desktop/image-graphic-design.jpg");
   }
 
   &:hover {
@@ -127,6 +172,14 @@
           rgba(231, 129, 107, 0.7)
         ),
         url("/assets/home/tablet/image-graphic-design.jpg");
+    }
+
+    @media screen and (min-width: 1024px) {
+      background-image: linear-gradient(
+          rgba(231, 129, 107, 0.7),
+          rgba(231, 129, 107, 0.7)
+        ),
+        url("/assets/home/desktop/image-graphic-design.jpg");
     }
   }
 }
