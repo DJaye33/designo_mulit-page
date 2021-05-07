@@ -114,7 +114,14 @@ a {
         margin-right: auto; } }
     @media screen and (min-width: 1440px) {
       .main__features {
+        margin-bottom: 16rem;
         max-width: 1110px; } }
+  @media screen and (min-width: 1440px) {
+    .main__description {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1110px; } }
 
 .logo {
   height: 2.7rem; }
@@ -359,12 +366,25 @@ a {
   flex-direction: column;
   align-items: center;
   margin-bottom: 8rem; }
+  @media screen and (min-width: 768px) {
+    .description-group {
+      margin-bottom: initial;
+      justify-content: space-evenly;
+      flex-direction: row; } }
+  @media screen and (min-width: 1440px) {
+    .description-group {
+      justify-content: initial;
+      flex-direction: column; } }
   .description-group .group-figure {
     background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center left;
     margin-bottom: 4.8rem; }
+  @media screen and (min-width: 768px) {
+    .description-group .group-text {
+      margin-left: 4.8rem;
+      max-width: 43.9rem; } }
   .description-group .group-text .text-heading {
     font-weight: 500;
     font-size: 2rem;
@@ -374,10 +394,24 @@ a {
     color: var(--color-primary-black);
     text-transform: uppercase;
     margin-bottom: 3.2rem; }
+    @media screen and (min-width: 768px) {
+      .description-group .group-text .text-heading {
+        text-align: left;
+        margin-bottom: 1.6rem; } }
+    @media screen and (min-width: 1440px) {
+      .description-group .group-text .text-heading {
+        text-align: center;
+        margin-bottom: 3.2rem; } }
   .description-group .group-text .text-content {
     font-size: 1.6rem;
     line-height: 2.6rem;
     text-align: center;
     color: var(--color-primary-black); }
+    @media screen and (min-width: 768px) {
+      .description-group .group-text .text-content {
+        text-align: left; } }
+    @media screen and (min-width: 1440px) {
+      .description-group .group-text .text-content {
+        text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
