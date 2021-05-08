@@ -429,9 +429,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--color-primary-peach);
-  background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg");
-  background-size: cover;
-  background-position: 120% 75%;
+  background-image: url("/assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg");
+  background-size: 240%;
+  background-position: 100%;
   padding: 6.4rem 2.4rem;
   border-radius: 1.5rem; }
   .footer__cta .cta-info {
