@@ -58,7 +58,7 @@
   padding: 12rem 2.4rem 31.1rem;
 
   @media screen and (min-width: 768px) {
-    padding: 12rem 3.9rem;
+    padding: 12rem 3.9rem 33.1rem;
   }
 
   &__features {
@@ -94,4 +94,8 @@
   padding: 25.3rem 2.4rem 6.4rem;
   background-color: var(--color-primary-black);
   position: relative;
+
+  @media screen and (min-width: 768px) {
+    padding: 16.6rem 3.9rem 6.4rem;
+  }
 }
