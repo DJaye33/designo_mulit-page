@@ -1,3 +1,41 @@
+.footer__cta {
+  position: absolute;
+  bottom: 77%;
+  left: 2.4rem;
+  right: 2.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-primary-peach);
+  background-image: url("/assets/shared/desktop/bg-pattern-call-to-action.svg");
+  background-size: cover;
+  background-position: 120% 75%;
+  padding: 6.4rem 2.4rem;
+  border-radius: 1.5rem;
+
+  .cta-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .info-heading {
+      font-size: 3.2rem;
+      font-weight: 500;
+      line-height: 3.6rem;
+      text-align: center;
+      color: var(--color-primary-white);
+      margin-bottom: 1.5rem;
+    }
+
+    .info-text {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      text-align: center;
+      color: var(--color-primary-white);
+      margin-bottom: 3.2rem;
+    }
+  }
+}
+
 .footer__company {
   display: flex;
   flex-direction: column;
