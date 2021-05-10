@@ -12,6 +12,7 @@
   --color-primary-black: #1d1c1e;
   --color-primary-white: #ffffff;
   --color-secondary-light-peach: #ffad9b;
+  --color-secondary-lightest-peach: #fdf3f0;
   --color-secondary-dark-grey: #333136;
   --color-secondary-light-grey: #f1f3f5; }
 
@@ -624,5 +625,105 @@ a {
     transition: 0.2s; }
   .office-socials .socials:hover svg path {
     fill: var(--color-secondary-light-peach); }
+
+.web-header {
+  padding: 10.5rem 2.4rem;
+  background-color: var(--color-primary-peach);
+  background-image: url("/assets/web-design/desktop/bg-pattern-intro-web.svg");
+  background-size: 250%;
+  background-position: right top; }
+
+.web-main {
+  padding: 9.6rem 2.4rem; }
+
+.web-header__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .web-header__wrapper .web-header-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 2.4rem; }
+  .web-header__wrapper .web-header-paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--color-primary-white); }
+
+.web-design__card {
+  margin-bottom: 4rem; }
+  .web-design__card:last-child {
+    margin-bottom: 9.6rem; }
+  .web-design__card .web-design__express {
+    background-image: url("/assets/web-design/desktop/image-express.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__transfer {
+    background-image: url("/assets/web-design/desktop/image-transfer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__photon {
+    background-image: url("/assets/web-design/desktop/image-photon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__builder {
+    background-image: url("/assets/web-design/desktop/image-builder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__blogr {
+    background-image: url("/assets/web-design/desktop/image-blogr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__camp {
+    background-image: url("/assets/web-design/desktop/image-camp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    min-height: 32rem; }
+  .web-design__card .web-design__info {
+    background-color: var(--color-secondary-lightest-peach);
+    padding: 3.2rem 2.9rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem; }
+    .web-design__card .web-design__info-heading {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 2.6rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      color: var(--color-primary-peach);
+      margin-bottom: 1.6rem;
+      text-transform: uppercase; }
+    .web-design__card .web-design__info-paragraph {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      text-align: center;
+      color: var(--color-secondary-dark-grey); }
 
 /*# sourceMappingURL=main.css.map */

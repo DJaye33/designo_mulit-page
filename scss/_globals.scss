@@ -15,6 +15,7 @@
   --color-primary-white: #ffffff;
 
   --color-secondary-light-peach: #ffad9b;
+  --color-secondary-lightest-peach: #fdf3f0;
   --color-secondary-dark-grey: #333136;
   --color-secondary-light-grey: #f1f3f5;
 }
@@ -56,4 +57,14 @@ a {
 
 .inactive {
   display: none;
+}
+
+@mixin switchBackground($bgImage) {
+  background-image: url($bgImage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  min-height: 32rem;
 }

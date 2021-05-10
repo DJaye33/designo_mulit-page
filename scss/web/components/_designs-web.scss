@@ -1,0 +1,68 @@
+.web-design__card {
+  margin-bottom: 4rem;
+
+  &:last-child {
+    margin-bottom: 9.6rem;
+  }
+
+  .web-design__express {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-express.jpg"
+    );
+  }
+
+  .web-design__transfer {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-transfer.jpg"
+    );
+  }
+
+  .web-design__photon {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-photon.jpg"
+    );
+  }
+
+  .web-design__builder {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-builder.jpg"
+    );
+  }
+
+  .web-design__blogr {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-blogr.jpg"
+    );
+  }
+
+  .web-design__camp {
+    @include switchBackground(
+      $bgImage: "/assets/web-design/desktop/image-camp.jpg"
+    );
+  }
+
+  .web-design__info {
+    background-color: var(--color-secondary-lightest-peach);
+    padding: 3.2rem 2.9rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+
+    &-heading {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 2.6rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      color: var(--color-primary-peach);
+      margin-bottom: 1.6rem;
+      text-transform: uppercase;
+    }
+
+    &-paragraph {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+      text-align: center;
+      color: var(--color-secondary-dark-grey);
+    }
+  }
+}
