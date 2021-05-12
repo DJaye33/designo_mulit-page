@@ -1469,33 +1469,50 @@ a {
 
 @media screen and (min-width: 768px) {
   .about-header,
-  .about-talent {
+  .about-talent,
+  .about-deal {
     margin-left: 3.9rem;
     margin-right: 3.9rem;
     margin-bottom: 12rem; } }
 @media screen and (min-width: 1024px) {
   .about-header,
-  .about-talent {
+  .about-talent,
+  .about-deal {
     display: flex; } }
 @media screen and (min-width: 1440px) {
   .about-header,
-  .about-talent {
+  .about-talent,
+  .about-deal {
     margin-left: auto;
     margin-right: auto;
     height: 64rem;
     max-width: 1110px; } }
 
+@media screen and (min-width: 1024px) {
+  .about-deal {
+    margin-bottom: 38rem; } }
+
 .countries {
   padding: 12rem 1.3rem; }
 
-.leaf-talent {
+.leaf-about {
   position: absolute;
-  top: 39%;
+  top: 12%;
   left: 0%;
   z-index: -1;
   width: 70%; }
   @media screen and (max-width: 1023px) {
-    .leaf-talent {
+    .leaf-about {
+      display: none; } }
+
+.leaf-about-middle {
+  position: absolute;
+  top: 52.55%;
+  right: -25%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-about-middle {
       display: none; } }
 
 .about-header__graphic {
@@ -1639,6 +1656,15 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media screen and (min-width: 1024px) {
+    .countries__group {
+      flex-direction: row;
+      justify-content: space-around; } }
+  @media screen and (min-width: 1440px) {
+    .countries__group {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1110px; } }
   .countries__group .group__country {
     display: flex;
     flex-direction: column;
@@ -1660,5 +1686,79 @@ a {
       color: var(--color-primary-black);
       text-transform: uppercase;
       margin-bottom: 3.2rem; }
+
+.about-deal__graphic {
+  background-image: url("/assets/about/mobile/image-real-deal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 32rem; }
+  @media screen and (min-width: 768px) {
+    .about-deal__graphic {
+      background-image: url("/assets/about/tablet/image-real-deal.jpg");
+      border-top-right-radius: 1.5rem;
+      border-top-left-radius: 1.5rem; } }
+  @media screen and (min-width: 1024px) {
+    .about-deal__graphic {
+      background-image: url("/assets/about/desktop/image-real-deal.jpg");
+      order: 1;
+      width: 53%;
+      border-bottom-right-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+      border-top-left-radius: initial;
+      border-bottom-left-radius: initial; } }
+
+.about-deal__content {
+  padding: 8rem 2.4rem;
+  background-color: var(--color-secondary-lightest-peach);
+  background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: 0% 50%;
+  margin-bottom: 31rem; }
+  @media screen and (min-width: 768px) {
+    .about-deal__content {
+      padding: 6.4rem 5.8rem;
+      border-bottom-right-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      background-size: 80%;
+      background-position: 50% 150%;
+      margin-bottom: 38.4rem; } }
+  @media screen and (min-width: 1024px) {
+    .about-deal__content {
+      padding: 13.5rem 9.5rem;
+      border-bottom-right-radius: initial;
+      border-top-right-radius: initial;
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      max-width: 60%;
+      background-size: 80%;
+      background-position: -50% 100%;
+      margin-bottom: initial; } }
+  .about-deal__content .about-deal-content-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-peach);
+    margin-bottom: 2.4rem; }
+    @media screen and (min-width: 768px) {
+      .about-deal__content .about-deal-content-heading {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+        margin-bottom: 3.2rem; } }
+    @media screen and (min-width: 1024px) {
+      .about-deal__content .about-deal-content-heading {
+        text-align: left; } }
+  .about-deal__content .about-deal-content-paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--color-primary-black); }
+    .about-deal__content .about-deal-content-paragraph:nth-child(2) {
+      margin-bottom: 2.4rem; }
+    @media screen and (min-width: 1024px) {
+      .about-deal__content .about-deal-content-paragraph {
+        text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */

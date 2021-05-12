@@ -4,6 +4,17 @@
   justify-content: center;
   align-items: center;
 
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1110px;
+  }
+
   .group__country {
     display: flex;
     flex-direction: column;

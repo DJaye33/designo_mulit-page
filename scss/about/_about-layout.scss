@@ -1,5 +1,6 @@
 .about-header,
-.about-talent {
+.about-talent,
+.about-deal {
   @media screen and (min-width: 768px) {
     margin-left: 3.9rem;
     margin-right: 3.9rem;
@@ -18,14 +19,32 @@
   }
 }
 
+.about-deal {
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 38rem;
+  }
+}
+
 .countries {
   padding: 12rem 1.3rem;
 }
 
-.leaf-talent {
+.leaf-about {
   position: absolute;
-  top: 39%;
+  top: 12%;
   left: 0%;
+  z-index: -1;
+  width: 70%;
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.leaf-about-middle {
+  position: absolute;
+  top: 52.55%;
+  right: -25%;
   z-index: -1;
   width: 70%;
 
