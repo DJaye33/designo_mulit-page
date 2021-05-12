@@ -27,6 +27,31 @@ html {
 
 body {
   font-family: "Jost", sans-serif;
+  position: relative;
+}
+
+.leaf-top {
+  position: absolute;
+  top: 16%;
+  left: 0%;
+  z-index: -1;
+  width: 70%;
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.leaf-bottom {
+  position: absolute;
+  top: 65%;
+  right: 0%;
+  z-index: -1;
+  transform: rotate(180deg);
+
+  @media screen and (max-width: 1439px) {
+    display: none;
+  }
 }
 
 a {

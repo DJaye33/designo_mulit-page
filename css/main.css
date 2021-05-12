@@ -21,7 +21,28 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Jost", sans-serif; }
+  font-family: "Jost", sans-serif;
+  position: relative; }
+
+.leaf-top {
+  position: absolute;
+  top: 16%;
+  left: 0%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-top {
+      display: none; } }
+
+.leaf-bottom {
+  position: absolute;
+  top: 65%;
+  right: 0%;
+  z-index: -1;
+  transform: rotate(180deg); }
+  @media screen and (max-width: 1439px) {
+    .leaf-bottom {
+      display: none; } }
 
 a {
   text-decoration: none; }
@@ -670,6 +691,16 @@ a {
       display: flex;
       justify-content: space-between; } }
 
+.leaf-web {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-web {
+      display: none; } }
+
 .web-header__wrapper {
   display: flex;
   flex-direction: column;
@@ -947,6 +978,16 @@ a {
       display: flex;
       justify-content: space-between; } }
 
+.leaf-app {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-app {
+      display: none; } }
+
 .app-header__wrapper {
   display: flex;
   flex-direction: column;
@@ -1214,6 +1255,16 @@ a {
       display: flex;
       justify-content: space-between; } }
 
+.leaf-graphic {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-graphic {
+      display: none; } }
+
 .graphic-header__wrapper {
   display: flex;
   flex-direction: column;
@@ -1409,5 +1460,32 @@ a {
     @media screen and (min-width: 1024px) {
       .graphic-features-graphic:hover {
         background-image: linear-gradient(rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url("/assets/home/desktop/image-graphic-design.jpg"); } }
+
+.about-header__graphic {
+  background-image: url("/assets/about/mobile/image-about-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 32rem; }
+
+.about-header__content {
+  padding: 8rem 2.45rem;
+  background-color: var(--color-primary-peach);
+  background-image: url("/assets/about/mobile/bg-pattern-hero-about-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: 98% 26%; }
+  .about-header__content .about-content-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 2.4rem; }
+  .about-header__content .about-content-paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--color-primary-white); }
 
 /*# sourceMappingURL=main.css.map */

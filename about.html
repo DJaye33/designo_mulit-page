@@ -10,10 +10,60 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="css/main.css" />
     <title>Frontend Mentor | Designo Agency Website Challenge</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <!-- Global Navbar -->
+    <nav class="navbar">
+      <a href="/" class="navbar__logo">
+        <img
+          src="/assets/shared/desktop/logo-dark.png"
+          alt="designo"
+          class="logo"
+        />
+      </a>
+
+      <!-- Navigation -->
+      <div class="navbar__navigation">
+        <a href="#" class="navigation-links">Our Company</a>
+        <a href="#" class="navigation-links">Locations</a>
+        <a href="#" class="navigation-links">Contact</a>
+      </div>
+
+      <!-- Menu -->
+      <div class="navbar__menu">
+        <img
+          src="/assets/shared/mobile/icon-hamburger.svg"
+          alt="menu"
+          class="menu"
+        />
+        <img
+          src="/assets/shared/mobile/icon-close.svg"
+          alt="menu"
+          class="close inactive"
+        />
+      </div>
+    </nav>
+    <!-- End Global Navbar -->
+
+    <!-- About Header -->
+    <header class="about-header">
+      <div class="about-header__graphic"></div>
+
+      <div class="about-header__content">
+        <h1 class="about-content-heading">About Us</h1>
+        <p class="about-content-paragraph">
+          Founded in 2010, we are a creative agency that produces lasting
+          results for our clients. We’ve partnered with many startups,
+          corporations, and nonprofits alike to craft designs that make real
+          impact. We’re always looking forward to creating brands, products, and
+          digital experiences that connect with our clients’ audiences.
+        </p>
+      </div>
+    </header>
+    <!-- About End Header -->
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>

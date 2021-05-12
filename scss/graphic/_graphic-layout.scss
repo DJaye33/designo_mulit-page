@@ -60,3 +60,15 @@
     }
   }
 }
+
+.leaf-graphic {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  z-index: -1;
+  width: 70%;
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}

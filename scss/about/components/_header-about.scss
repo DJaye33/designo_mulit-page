@@ -1,0 +1,32 @@
+.about-header__graphic {
+  background-image: url("/assets/about/mobile/image-about-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 32rem;
+}
+
+.about-header__content {
+  padding: 8rem 2.45rem;
+  background-color: var(--color-primary-peach);
+  background-image: url("/assets/about/mobile/bg-pattern-hero-about-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: 98% 26%;
+
+  .about-content-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-white);
+    margin-bottom: 2.4rem;
+  }
+
+  .about-content-paragraph {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: var(--color-primary-white);
+  }
+}
