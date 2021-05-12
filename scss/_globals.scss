@@ -80,6 +80,15 @@ a {
   }
 }
 
+.btn--solid {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-peach);
+
+  &:hover {
+    background-color: var(--color-secondary-light-peach);
+  }
+}
+
 .inactive {
   display: none;
 }

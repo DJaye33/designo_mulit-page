@@ -1,0 +1,33 @@
+.countries__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .group__country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.8rem;
+  }
+
+  .country-group {
+    background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    margin-bottom: 4.8rem;
+
+    &-heading {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 2.6rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      color: var(--color-primary-black);
+      text-transform: uppercase;
+      margin-bottom: 3.2rem;
+    }
+  }
+}

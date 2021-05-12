@@ -66,6 +66,12 @@ a {
     color: var(--color-primary-white);
     background-color: var(--color-secondary-light-peach); }
 
+.btn--solid {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-peach); }
+  .btn--solid:hover {
+    background-color: var(--color-secondary-light-peach); }
+
 .inactive {
   display: none; }
 
@@ -1479,6 +1485,19 @@ a {
     height: 64rem;
     max-width: 1110px; } }
 
+.countries {
+  padding: 12rem 1.3rem; }
+
+.leaf-talent {
+  position: absolute;
+  top: 39%;
+  left: 0%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-talent {
+      display: none; } }
+
 .about-header__graphic {
   background-image: url("/assets/about/mobile/image-about-hero.jpg");
   background-repeat: no-repeat;
@@ -1614,5 +1633,32 @@ a {
     @media screen and (min-width: 1024px) {
       .about-talent__content .about-talent-content-paragraph {
         text-align: left; } }
+
+.countries__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .countries__group .group__country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.8rem; }
+  .countries__group .country-group {
+    background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    margin-bottom: 4.8rem; }
+    .countries__group .country-group-heading {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 2.6rem;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      color: var(--color-primary-black);
+      text-transform: uppercase;
+      margin-bottom: 3.2rem; }
 
 /*# sourceMappingURL=main.css.map */
