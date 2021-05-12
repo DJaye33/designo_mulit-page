@@ -1461,12 +1461,38 @@ a {
       .graphic-features-graphic:hover {
         background-image: linear-gradient(rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url("/assets/home/desktop/image-graphic-design.jpg"); } }
 
+@media screen and (min-width: 768px) {
+  .about-header {
+    margin-left: 3.9rem;
+    margin-right: 3.9rem; } }
+@media screen and (min-width: 1024px) {
+  .about-header {
+    display: flex; } }
+@media screen and (min-width: 1440px) {
+  .about-header {
+    margin-left: auto;
+    margin-right: auto;
+    height: 48rem;
+    max-width: 1110px; } }
+
 .about-header__graphic {
   background-image: url("/assets/about/mobile/image-about-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   min-height: 32rem; }
+  @media screen and (min-width: 768px) {
+    .about-header__graphic {
+      background-image: url("/assets/about/tablet/image-about-hero.jpg");
+      border-top-right-radius: 1.5rem;
+      border-top-left-radius: 1.5rem; } }
+  @media screen and (min-width: 1024px) {
+    .about-header__graphic {
+      background-image: url("/assets/about/desktop/image-about-hero.jpg");
+      order: 2;
+      width: 53%;
+      border-bottom-right-radius: 1.5rem;
+      border-top-left-radius: initial; } }
 
 .about-header__content {
   padding: 8rem 2.45rem;
@@ -1475,6 +1501,20 @@ a {
   background-repeat: no-repeat;
   background-size: 250%;
   background-position: 98% 26%; }
+  @media screen and (min-width: 768px) {
+    .about-header__content {
+      padding: 6.4rem 5.8rem;
+      border-bottom-right-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      background-position: 117% 24%; } }
+  @media screen and (min-width: 1024px) {
+    .about-header__content {
+      padding: 13.5rem 9.5rem;
+      border-bottom-right-radius: initial;
+      border-top-left-radius: 1.5rem;
+      max-width: 60%;
+      background-size: 290%;
+      background-position: 100% 10%; } }
   .about-header__content .about-content-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -1482,10 +1522,21 @@ a {
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem; }
+    @media screen and (min-width: 768px) {
+      .about-header__content .about-content-heading {
+        font-size: 4.8rem;
+        line-height: 4.8rem;
+        margin-bottom: 3.2rem; } }
+    @media screen and (min-width: 1024px) {
+      .about-header__content .about-content-heading {
+        text-align: left; } }
   .about-header__content .about-content-paragraph {
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-align: center;
     color: var(--color-primary-white); }
+    @media screen and (min-width: 1024px) {
+      .about-header__content .about-content-paragraph {
+        text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.about-header {
+  @media screen and (min-width: 768px) {
+    margin-left: 3.9rem;
+    margin-right: 3.9rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+    margin-right: auto;
+    height: 48rem;
+    max-width: 1110px;
+  }
+}
