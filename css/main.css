@@ -1465,7 +1465,8 @@ a {
   .about-header,
   .about-talent {
     margin-left: 3.9rem;
-    margin-right: 3.9rem; } }
+    margin-right: 3.9rem;
+    margin-bottom: 12rem; } }
 @media screen and (min-width: 1024px) {
   .about-header,
   .about-talent {
@@ -1475,7 +1476,7 @@ a {
   .about-talent {
     margin-left: auto;
     margin-right: auto;
-    height: 48rem;
+    height: 64rem;
     max-width: 1110px; } }
 
 .about-header__graphic {
@@ -1558,8 +1559,10 @@ a {
       background-image: url("/assets/about/desktop/image-world-class-talent.jpg");
       order: 1;
       width: 53%;
-      border-bottom-right-radius: 1.5rem;
-      border-top-left-radius: initial; } }
+      border-bottom-right-radius: initial;
+      border-top-right-radius: initial;
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem; } }
 
 .about-talent__content {
   padding: 8rem 2.4rem;
@@ -1573,15 +1576,19 @@ a {
       padding: 6.4rem 5.8rem;
       border-bottom-right-radius: 1.5rem;
       border-bottom-left-radius: 1.5rem;
-      background-position: 117% 24%; } }
+      background-size: 80%;
+      background-position: 50% 150%; } }
   @media screen and (min-width: 1024px) {
     .about-talent__content {
+      order: 2;
       padding: 13.5rem 9.5rem;
-      border-bottom-right-radius: initial;
-      border-top-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+      border-top-left-radius: initial;
+      border-bottom-left-radius: initial;
       max-width: 60%;
-      background-size: 290%;
-      background-position: 100% 10%; } }
+      background-size: 80%;
+      background-position: -50% 100%; } }
   .about-talent__content .about-talent-content-heading {
     font-weight: 500;
     font-size: 3.2rem;
