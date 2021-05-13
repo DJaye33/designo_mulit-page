@@ -7,5 +7,59 @@
 }
 
 .map-group-content {
+  padding: 8rem 2.4rem;
   background-color: var(--color-secondary-lightest-peach);
+  background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg");
+
+  .group-content-heading {
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    text-align: center;
+    color: var(--color-primary-peach);
+    margin-bottom: 2.4rem;
+  }
+
+  .group-content-text-box {
+    .text-box-office {
+      margin-bottom: 2.4rem;
+      .box-office-heading {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: var(--color-primary-black);
+      }
+
+      .box-office-paragraph {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: var(--color-primary-black);
+      }
+    }
+
+    .text-box-contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .box-contact-heading {
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: var(--color-primary-black);
+      }
+
+      .box-contact-phone,
+      .box-contact-mail {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: var(--color-primary-black);
+      }
+    }
+  }
 }
