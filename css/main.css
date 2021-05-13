@@ -362,6 +362,12 @@ a {
     .footer .office-socials .socials:hover svg path {
       fill: var(--color-secondary-light-peach); }
 
+.footer-contact {
+  padding: 6.4rem 2.4rem; }
+  @media screen and (min-width: 768px) {
+    .footer-contact {
+      padding: 8rem 3.9rem; } }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -1892,5 +1898,32 @@ a {
       line-height: 2.5rem;
       text-align: center;
       color: var(--color-primary-black); }
+
+.header-contact {
+  padding: 7.2rem 2.4rem;
+  background-color: var(--color-primary-peach);
+  background-image: url("/assets/contact/mobile/bg-pattern-hero-contact-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 20% 0%; }
+
+.contact-box .contact-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  text-align: center;
+  color: var(--color-primary-white);
+  margin-bottom: 2.4rem; }
+.contact-box .contact-paragraph {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: var(--color-primary-white);
+  margin-bottom: 4.8rem; }
+
+.countries-contact {
+  padding: 12rem 1.3rem; }
+  @media screen and (min-width: 1024px) {
+    .countries-contact {
+      padding: 16rem 1.3rem; } }
 
 /*# sourceMappingURL=main.css.map */
