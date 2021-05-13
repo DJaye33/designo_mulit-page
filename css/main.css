@@ -1761,4 +1761,14 @@ a {
       .about-deal__content .about-deal-content-paragraph {
         text-align: left; } }
 
+.map-group-box {
+  background-image: url("/assets/locations/tablet/image-map-canada.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 32rem; }
+
+.map-group-content {
+  background-color: var(--color-secondary-lightest-peach); }
+
 /*# sourceMappingURL=main.css.map */
