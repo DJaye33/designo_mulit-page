@@ -1,5 +1,10 @@
 .location-main {
   padding-bottom: 31rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 3.9rem 38.4rem;
+  }
+
   .map__group {
     margin-bottom: 4rem;
   }

@@ -1763,6 +1763,9 @@ a {
 
 .location-main {
   padding-bottom: 31rem; }
+  @media screen and (min-width: 768px) {
+    .location-main {
+      padding: 0 3.9rem 38.4rem; } }
   .location-main .map__group {
     margin-bottom: 4rem; }
 
@@ -1772,11 +1775,22 @@ a {
   background-size: cover;
   background-position: center center;
   min-height: 32rem; }
+  @media screen and (min-width: 768px) {
+    .map-group-box {
+      border-top-right-radius: 1.5rem;
+      border-top-left-radius: 1.5rem; } }
 
 .map-group-content {
   padding: 8rem 2.4rem;
   background-color: var(--color-secondary-lightest-peach);
-  background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg"); }
+  background-image: url("/assets/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 768px) {
+    .map-group-content {
+      padding: 8.8rem 7.5rem;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+      background-position: 0% 100%; } }
   .map-group-content .group-content-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -1784,6 +1798,15 @@ a {
     text-align: center;
     color: var(--color-primary-peach);
     margin-bottom: 2.4rem; }
+    @media screen and (min-width: 768px) {
+      .map-group-content .group-content-heading {
+        text-align: left; } }
+  @media screen and (min-width: 768px) {
+    .map-group-content .group-content-text-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 60rem; } }
   .map-group-content .group-content-text-box .text-box-office {
     margin-bottom: 2.4rem; }
     .map-group-content .group-content-text-box .text-box-office .box-office-heading {
@@ -1792,22 +1815,35 @@ a {
       line-height: 2.5rem;
       text-align: center;
       color: var(--color-primary-black); }
+      @media screen and (min-width: 768px) {
+        .map-group-content .group-content-text-box .text-box-office .box-office-heading {
+          text-align: left; } }
     .map-group-content .group-content-text-box .text-box-office .box-office-paragraph {
       font-size: 15px;
       line-height: 25px;
       text-align: center;
       color: var(--color-primary-black); }
+      @media screen and (min-width: 768px) {
+        .map-group-content .group-content-text-box .text-box-office .box-office-paragraph {
+          text-align: left; } }
   .map-group-content .group-content-text-box .text-box-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    @media screen and (min-width: 768px) {
+      .map-group-content .group-content-text-box .text-box-contact {
+        align-items: flex-start;
+        margin-right: 8rem; } }
     .map-group-content .group-content-text-box .text-box-contact .box-contact-heading {
       font-weight: bold;
       font-size: 1.5rem;
       line-height: 2.5rem;
       text-align: center;
       color: var(--color-primary-black); }
+      @media screen and (min-width: 768px) {
+        .map-group-content .group-content-text-box .text-box-contact .box-contact-heading {
+          text-align: left; } }
     .map-group-content .group-content-text-box .text-box-contact .box-contact-phone,
     .map-group-content .group-content-text-box .text-box-contact .box-contact-mail {
       font-size: 1.5rem;
