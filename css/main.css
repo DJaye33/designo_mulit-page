@@ -1768,9 +1768,17 @@ a {
       padding: 0 3.9rem 38.4rem; } }
   .location-main .map__group {
     margin-bottom: 4rem; }
+    @media screen and (min-width: 1024px) {
+      .location-main .map__group {
+        display: flex;
+        justify-content: space-between; } }
+    @media screen and (min-width: 1440px) {
+      .location-main .map__group {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1110px; } }
 
 .map-group-box {
-  background-image: url("/assets/locations/tablet/image-map-canada.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1779,6 +1787,33 @@ a {
     .map-group-box {
       border-top-right-radius: 1.5rem;
       border-top-left-radius: 1.5rem; } }
+  @media screen and (min-width: 1024px) {
+    .map-group-box {
+      width: 32%;
+      border-radius: 1.5rem; } }
+
+@media screen and (min-width: 150px) {
+  .map-canada {
+    background-image: url("/assets/locations/tablet/image-map-canada.png"); } }
+@media screen and (min-width: 1024px) {
+  .map-canada {
+    background-image: url("/assets/locations/desktop/image-map-canada.png");
+    order: 2; } }
+
+@media screen and (min-width: 150px) {
+  .map-australia {
+    background-image: url("/assets/locations/tablet/image-map-australia.png"); } }
+@media screen and (min-width: 1024px) {
+  .map-australia {
+    background-image: url("/assets/locations/desktop/image-map-australia.png"); } }
+
+@media screen and (min-width: 150px) {
+  .map-uk {
+    background-image: url("/assets/locations/tablet/image-map-uk.png"); } }
+@media screen and (min-width: 1024px) {
+  .map-uk {
+    background-image: url("/assets/locations/desktop/image-map-united-kingdom.png");
+    order: 2; } }
 
 .map-group-content {
   padding: 8rem 2.4rem;
@@ -1791,6 +1826,10 @@ a {
       border-bottom-left-radius: 1.5rem;
       border-bottom-right-radius: 1.5rem;
       background-position: 0% 100%; } }
+  @media screen and (min-width: 1024px) {
+    .map-group-content {
+      width: 66%;
+      border-radius: 1.5rem; } }
   .map-group-content .group-content-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -1807,6 +1846,9 @@ a {
       justify-content: space-between;
       align-items: flex-start;
       max-width: 60rem; } }
+  @media screen and (min-width: 1024px) {
+    .map-group-content .group-content-text-box {
+      max-width: 55rem; } }
   .map-group-content .group-content-text-box .text-box-office {
     margin-bottom: 2.4rem; }
     .map-group-content .group-content-text-box .text-box-office .box-office-heading {
