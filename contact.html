@@ -58,11 +58,12 @@
           drop us a line.
         </p>
       </div>
-      <form class="contact-form" id="contact-form">
+      <form class="contact-form" id="contact-form" autocomplete="off">
         <!-- Name -->
         <div class="form-control">
-          <label for="name"></label>
-          <input type="text" placeholder="Name" id="name" />
+          <label for="name">
+            <input type="text" placeholder="Name" id="name" />
+          </label>
           <span
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
@@ -70,8 +71,9 @@
         </div>
         <!-- Email -->
         <div class="form-control">
-          <label for="email"></label>
-          <input type="email" placeholder="Email Address" id="name" />
+          <label for="email">
+            <input type="email" placeholder="Email Address" id="name" />
+          </label>
           <span
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
@@ -79,8 +81,9 @@
         </div>
         <!-- Phone -->
         <div class="form-control">
-          <label for="phone"></label>
-          <input type="phone" placeholder="Phone" id="name" />
+          <label for="phone">
+            <input type="phone" placeholder="Phone" id="name" />
+          </label>
           <span
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
@@ -88,14 +91,15 @@
         </div>
         <!-- Message -->
         <div class="form-control">
-          <label for="message"></label>
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
+          <label for="message">
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+          </label>
           <span
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"

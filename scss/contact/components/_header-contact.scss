@@ -1,4 +1,8 @@
 .contact-box {
+  @media screen and (min-width: 1024px) {
+    width: 46%;
+  }
+
   .contact-heading {
     font-weight: 500;
     font-size: 3.2rem;
@@ -6,6 +10,10 @@
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 2.4rem;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
   }
 
   .contact-paragraph {
@@ -14,5 +22,76 @@
     text-align: center;
     color: var(--color-primary-white);
     margin-bottom: 4.8rem;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 1024px) {
+    width: 41%;
+  }
+
+  & .btn {
+    align-self: center;
+    margin-top: 4rem;
+
+    @media screen and (min-width: 768px) {
+      align-self: flex-end;
+    }
+  }
+
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-primary-white);
+    padding: 0 1.3rem;
+
+    & label {
+      width: 55%;
+    }
+
+    & input,
+    & textarea {
+      font-family: "Jost", sans-serif;
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 2.6rem;
+      color: var(--color-primary-white);
+      opacity: 0.5;
+      border: none;
+      outline: none;
+      padding: 2.5rem 0;
+      background: transparent;
+      width: 100%;
+    }
+
+    & input:focus,
+    & textarea:focus {
+      opacity: initial;
+    }
+
+    & textarea {
+      resize: none;
+      max-height: 12.6rem;
+    }
+
+    & span {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 11rem;
+      font-size: 1.2rem;
+      font-style: italic;
+      line-height: 2.6rem;
+      color: var(--color-primary-white);
+      white-space: nowrap;
+    }
   }
 }
