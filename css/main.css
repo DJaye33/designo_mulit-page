@@ -1927,6 +1927,16 @@ a {
       margin-right: auto;
       max-width: 1110px; } }
 
+.leaf-about-bottom {
+  position: absolute;
+  top: 54%;
+  right: -2%;
+  z-index: -1;
+  width: 70%; }
+  @media screen and (max-width: 1023px) {
+    .leaf-about-bottom {
+      display: none; } }
+
 @media screen and (min-width: 1024px) {
   .contact-box {
     width: 46%; } }
