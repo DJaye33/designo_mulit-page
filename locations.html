@@ -10,6 +10,23 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
     <link rel="stylesheet" href="css/main.css" />
     <title>Frontend Mentor | Designo Agency Website Challenge</title>
   </head>
@@ -50,7 +67,7 @@
     <!-- Main -->
     <main class="location-main">
       <div class="map__group">
-        <div class="map-group-box map-canada"></div>
+        <div class="map-group-box map-canada" id="canada"></div>
         <div class="map-group-content">
           <h3 class="group-content-heading">Canada</h3>
           <div class="group-content-text-box">
@@ -73,14 +90,14 @@
       </div>
 
       <div class="map__group">
-        <div class="map-group-box map-australia"></div>
+        <div class="map-group-box map-australia" id="australia"></div>
         <div class="map-group-content">
           <h3 class="group-content-heading">Australia</h3>
           <div class="group-content-text-box">
             <div class="text-box-office">
               <h4 class="box-office-heading">Designo AU Office</h4>
               <p class="box-office-paragraph">19 Balonnne Street</p>
-              <p class="box-office-paragraph">Neew Soth Wales 2443</p>
+              <p class="box-office-paragraph">New Soth Wales 2443</p>
             </div>
             <div class="text-box-contact">
               <h4 class="box-contact-heading">Contact</h4>
@@ -96,7 +113,7 @@
       </div>
 
       <div class="map__group">
-        <div class="map-group-box map-uk"></div>
+        <div class="map-group-box map-uk" id="uk"></div>
         <div class="map-group-content">
           <h3 class="group-content-heading">United Kingdom</h3>
           <div class="group-content-text-box">
@@ -227,5 +244,11 @@
     <!-- End Global Footer -->
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/location.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
   </body>
 </html>
