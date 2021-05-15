@@ -1785,7 +1785,7 @@ a {
         margin-right: auto;
         max-width: 1110px; } }
     .location-main .map__group .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
-      z-index: -1; }
+      z-index: 0; }
 
 .map-group-box {
   background-repeat: no-repeat;
