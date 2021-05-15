@@ -18,5 +18,9 @@
       margin-right: auto;
       max-width: 1110px;
     }
+
+    .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+      z-index: -1;
+    }
   }
 }
