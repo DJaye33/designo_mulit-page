@@ -5,13 +5,14 @@
   min-height: 32rem;
 
   @media screen and (min-width: 768px) {
-    border-top-right-radius: 1.5rem;
-    border-top-left-radius: 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 3.1rem;
   }
 
   @media screen and (min-width: 1024px) {
     width: 32%;
     border-radius: 1.5rem;
+    margin-bottom: initial;
   }
 }
 
@@ -55,14 +56,15 @@
 
   @media screen and (min-width: 768px) {
     padding: 8.8rem 7.5rem;
-    border-bottom-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+    border-radius: 1.5rem;
     background-position: 0% 100%;
+    margin-bottom: 12rem;
   }
 
   @media screen and (min-width: 1024px) {
     width: 66%;
     border-radius: 1.5rem;
+    margin-bottom: initial;
   }
 
   .group-content-heading {
