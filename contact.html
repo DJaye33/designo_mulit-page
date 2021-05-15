@@ -67,13 +67,13 @@
           drop us a line.
         </p>
       </div>
-      <form class="contact-form" id="contact-form" autocomplete="off">
+      <form action="#" class="contact-form" id="contact-form">
         <!-- Name -->
         <div class="form-control">
           <label for="name">
             <input type="text" placeholder="Name" id="name" />
           </label>
-          <span
+          <span id="error-name"
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
           /></span>
@@ -81,9 +81,9 @@
         <!-- Email -->
         <div class="form-control">
           <label for="email">
-            <input type="email" placeholder="Email Address" id="name" />
+            <input type="email" placeholder="Email Address" id="email" />
           </label>
-          <span
+          <span id="error-email"
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
           /></span>
@@ -91,9 +91,14 @@
         <!-- Phone -->
         <div class="form-control">
           <label for="phone">
-            <input type="phone" placeholder="Phone" id="name" />
+            <input
+              type="tel"
+              placeholder="Phone (555-555-5555)"
+              id="phone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            />
           </label>
-          <span
+          <span id="error-phone"
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
           /></span>
@@ -106,15 +111,16 @@
               id="message"
               cols="30"
               rows="10"
-              placeholder="Your Message"
+              placeholder="Message (optional)"
             ></textarea>
           </label>
-          <span
+          <span id="error-message"
             >Can't be empty
             <img src="/assets/contact/desktop/icon-error.svg" alt="error"
           /></span>
         </div>
-        <a href="#" class="btn">Submit</a>
+        <!-- <a href="#" class="btn">Submit</a> -->
+        <button class="btn">Submit</button>
       </form>
     </header>
     <!-- End Contact Header -->
@@ -253,5 +259,6 @@
     <!-- End Global Footer -->
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/contact.js"></script>
   </body>
 </html>

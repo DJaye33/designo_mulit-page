@@ -4,6 +4,7 @@ const navigation = document.querySelector(".navbar__navigation");
 const navLinks = document.querySelector(".navigation-links");
 const body = document.querySelector("body");
 
+// Navigation
 function closeMobileMenu() {
   navigation.classList.remove("navbar__navigation--open");
   openMenu.classList.remove("inactive");
@@ -20,3 +21,5 @@ openMenu.addEventListener("click", (evt) => {
 
 closeMenu.addEventListener("click", closeMobileMenu);
 window.addEventListener("resize", closeMobileMenu);
+
+

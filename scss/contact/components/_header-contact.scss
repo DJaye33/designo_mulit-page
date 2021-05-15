@@ -56,6 +56,11 @@
     align-items: center;
     border-bottom: 1px solid var(--color-primary-white);
     padding: 0 1.3rem;
+    transition: 0.2s;
+
+    &:hover {
+      border-bottom: 3px solid var(--color-primary-white);
+    }
 
     & label {
       width: 55%;
@@ -87,7 +92,7 @@
     }
 
     & span {
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: space-between;
       min-width: 11rem;
