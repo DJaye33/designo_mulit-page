@@ -22,7 +22,8 @@ html {
 
 body {
   font-family: "Jost", sans-serif;
-  position: relative; }
+  position: relative;
+  overflow-x: hidden; }
 
 .leaf-top {
   position: absolute;
